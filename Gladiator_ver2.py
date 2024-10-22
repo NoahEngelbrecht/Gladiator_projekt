@@ -41,16 +41,16 @@ while strid:
     if val == "slag":
         miss_chans = 0.2
     elif val == "spark":
-        miss_chans = 0.3
+        miss_chans = 0.31415926538
     elif val == "kast":
-        miss_chans = 0.4
+        miss_chans = 0.33333333333
 
     if dator == "slag":
-        misschans_dator = 0.25
+        misschans_dator = 0.271828
     elif dator == "spark":
-        misschans_dator = 0.35
+        misschans_dator = 0.33333333
     elif dator == "kast":
-        misschans_dator = 0.45
+        misschans_dator = 0.377
 
     if random.random() < miss_chans:
         skada = random.randint(1,2)
